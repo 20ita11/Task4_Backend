@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Todo.todo.application.TodoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.027 s - in com.Todo.todo.application.TodoApplicationTests
