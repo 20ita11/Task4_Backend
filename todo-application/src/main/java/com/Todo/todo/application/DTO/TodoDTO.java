@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class TodoDTO {
 
+    private Long uid;
+
     private Long taskId;
 
     private String data;
