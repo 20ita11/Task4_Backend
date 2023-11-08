@@ -1,5 +1,6 @@
 package com.Todo.todo.application.controller;
 
+import com.Todo.todo.application.DTO.LoginResponseDTO;
 import com.Todo.todo.application.Model.UserCredentials;
 import com.Todo.todo.application.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +25,7 @@ public class UserController {
     }
 
     @PostMapping("/check")
-    public Boolean checkCredentails(@RequestBody UserCredentials userCredentials){
+    public LoginResponseDTO checkCredentails(@RequestBody UserCredentials userCredentials){
         return userService.checkCredentials(userCredentials);
     }
-
 }

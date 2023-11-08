@@ -1,9 +1,8 @@
 package com.Todo.todo.application.Model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.annotation.Generated;
+import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.lang.annotation.Documented;
@@ -14,7 +13,7 @@ import java.lang.annotation.Documented;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Todo {
-
+    @Id
     private String todoId;
     private String data;
     private Boolean status;

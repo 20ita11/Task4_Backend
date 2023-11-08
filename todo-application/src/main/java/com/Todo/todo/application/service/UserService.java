@@ -1,5 +1,6 @@
 package com.Todo.todo.application.service;
 
+import com.Todo.todo.application.DTO.LoginResponseDTO;
 import com.Todo.todo.application.Model.UserCredentials;
 import com.Todo.todo.application.Repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,11 +23,15 @@ public class UserService {
         userRepo.save(userCredentials);
     }
 
-    public Boolean checkCredentials(UserCredentials userCredentials) {
+    public LoginResponseDTO checkCredentials(UserCredentials userCredentials) {
+        LoginResponseDTO loginResponse = new LoginResponseDTO();
         UserCredentials users = userRepo.findByEmail(userCredentials.getEmail()).get();
         if(passwordEncoder.matches(userCredentials.getPassword(),users.getPassword())){
-            return true;
+            loginResponse.setId(users.getId());
+            loginResponse.setResult(true);
+            return loginResponse;
         }
-        return false;
+        loginResponse.setResult(false);
+        return loginResponse;
     }
 }

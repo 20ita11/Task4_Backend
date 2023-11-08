@@ -42,12 +42,7 @@ public class TodoService {
                     .build();
             todoDTOList.add(todoDTO);
         }
-        if(todoList.isEmpty()){
-            TodoDTO todoDTO = TodoDTO.builder()
-                    .uid(userData.getId())
-                    .build();
-            todoDTOList.add(todoDTO);
-        }
+
         return new ResponseEntity<>(todoDTOList, HttpStatus.OK);
     }
 
