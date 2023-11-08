@@ -51,7 +51,7 @@ public class TodoService {
         return new ResponseEntity<>(todoDTOList, HttpStatus.OK);
     }
 
-    public String deleteTasks(Long id) {
+    public String deleteTasks(String id) {
         todoRepo.deleteById(id);
         return "deleted";
     }

@@ -29,7 +29,7 @@ public class TodoController {
     }
 
     @DeleteMapping("deleteTasks/{id}")
-    public String deleteTasks(@PathVariable Long id){
+    public String deleteTasks(@PathVariable String id){
         return todoService.deleteTasks(id);
     }
 }
