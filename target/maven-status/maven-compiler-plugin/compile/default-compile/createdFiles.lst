@@ -3,6 +3,7 @@ com/Todo/todo/application/Repo/UserRepo.class
 com/Todo/todo/application/service/UserService.class
 com/Todo/todo/application/config/SecurityConfig.class
 com/Todo/todo/application/DTO/TodoDTO.class
+com/Todo/todo/application/DTO/LoginResponseDTO.class
 com/Todo/todo/application/controller/UserController.class
 com/Todo/todo/application/Model/Todo.class
 com/Todo/todo/application/controller/TodoController.class
@@ -11,5 +12,6 @@ com/Todo/todo/application/Model/UserCredentials$UserCredentialsBuilder.class
 com/Todo/todo/application/Model/UserCredentials.class
 com/Todo/todo/application/Model/Todo$TodoBuilder.class
 com/Todo/todo/application/service/TodoService.class
+com/Todo/todo/application/DTO/LoginResponseDTO$LoginResponseDTOBuilder.class
 com/Todo/todo/application/Repo/TodoRepo.class
 com/Todo/todo/application/TodoApplication.class

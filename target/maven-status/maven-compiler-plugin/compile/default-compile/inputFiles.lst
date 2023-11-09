@@ -1,12 +1,13 @@
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/service/UserService.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/Model/UserCredentials.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/config/SecurityConfig.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/DTO/TodoDTO.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/service/TodoService.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/Model/Todo.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/Repo/TodoRepo.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/config/CorsConfig.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/Repo/UserRepo.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/controller/TodoController.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/TodoApplication.java
-/home/divum/Documents/project/Nm/Task 4/todo-application/src/main/java/com/Todo/todo/application/controller/UserController.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/config/SecurityConfig.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/controller/UserController.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/config/CorsConfig.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/service/TodoService.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/controller/TodoController.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/DTO/LoginResponseDTO.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/Model/UserCredentials.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/DTO/TodoDTO.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/service/UserService.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/TodoApplication.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/Repo/TodoRepo.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/Repo/UserRepo.java
+/home/divum/Documents/project/Nm/new/Task4_Backend/src/main/java/com/Todo/todo/application/Model/Todo.java
